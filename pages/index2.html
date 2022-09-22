@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrito de compras</title>
+</head>
+
+<body>
+  <header class="container-fluid bg-dark position-sticky top-0">
+    <ul class="nav nav-pills mb-3 py-3 container" id="pills-tab" role="tablist">
+      <li class="nav-item text-primary" role="presentation">
+        <a class="nav-link " id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button"
+          role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link active" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+          type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Productos</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button"
+          role="tab" aria-controls="pills-contact" aria-selected="false">Carrito</a>
+      </li>
+    </ul>
+  </header>
+
+  <div class="alert container position-sticky top-0 alert-primary hide" role="alert">
+    Producto Añadido al carrito!
+  </div>
+  <div class="alert container position-sticky top-0 alert-danger remove" role="alert">
+    Producto removido!
+  </div>
+
+  <div class="tab-content" id="pills-tabContent">
+    <div class="tab-pane fade " id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+      1
+    </div>
+    <div class="tab-pane fade show active container" id="pills-profile" role="tabpanel"
+      aria-labelledby="pills-profile-tab">
+      <h2 class="h4 m-4 text-primary">Productos</h2>
+
+      <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+
+        <div class="col d-flex justify-content-center mb-4">
+          <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+            <h5 class="card-title pt-2 text-center text-primary">granola</h5>
+            <img src="https://cdn.shopify.com/s/files/1/0567/5158/7533/products/granolacococanela1_640x640_crop_center.png?v=1648061260" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-white-50 description">deliciosas para el paladar,aportan mucha fibra, omegas, antioxidantes, vitaminas, aminoácidos y minerales</p>
+              <h5 class="text-primary">Precio: <span class="precio">$ 5000</span></h5>
+              <div class="d-grid gap-2">
+                <button class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col d-flex justify-content-center mb-4">
+          <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+            <h5 class="card-title pt-2 text-center text-primary">almendro</h5>
+            <img src="https://exitocol.vtexassets.com/arquivos/ids/13175524/Almendras-Americanas-Bolsa-X-250-gr-375909_a.jpg?v=637899507074130000"" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-white-50 description">deliciosas para el paladar,aportan mucha fibra, omegas, antioxidantes, vitaminas, aminoácidos y minerales</p>
+              <h5 class="text-primary">Precio: <span class="precio">$ 15000</span></h5>
+              <div class="d-grid gap-2">
+                <button class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col d-flex justify-content-center mb-4">
+          <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+            <h5 class="card-title pt-2 text-center text-primary">uvas pasas</h5>
+            <img src="https://www.levapan.com/wp-content/uploads/2015/11/uvas-pasas-levapan-de-1kg.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-white-50 description">deliciosas para el paladar,aportan mucha fibra, omegas, antioxidantes, vitaminas, aminoácidos y minerale</p>
+              <h5 class="text-primary">Precio: <span class="precio">$3000</span></h5>
+              <div class="d-grid gap-2">
+                <button class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col d-flex justify-content-center mb-4">
+          <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+            <h5 class="card-title pt-2 text-center text-primary">Arandanos</h5>
+            <img src="https://web.superboom.net/web/image/product.product/29816/image_1024/%5B016829%5D%20Arandanos%20Riovalle%20Bolsa%20100Gr?unique=a4fc3df" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-white-50 description">deliciosas para el paladar,aportan mucha fibra, omegas, antioxidantes, vitaminas, aminoácidos y minerales</p>
+              <h5 class="text-primary">Precio: <span class="precio">$ 8000</span></h5>
+              <div class="d-grid gap-2">
+                <button class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col d-flex justify-content-center mb-4">
+          <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+            <h5 class="card-title pt-2 text-center text-primary">Nuez</h5>
+            <img src="https://exitocol.vtexassets.com/arquivos/ids/12936219/Mani-Con-Pasas-Bolsa-X-200-G-883557_a.jpg?v=637885700043930000" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-white-50 description">deliciosas para el paladar,aportan mucha fibra, omegas, antioxidantes, vitaminas, aminoácidos y minerales</p>     
+              <h5 class="text-primary">Precio:"><span class="precio">$ 12</span></h5>
+              <div class="d-grid gap-2">
+                <button class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col d-flex justify-content-center mb-4">
+          <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+            <h5 class="card-title pt-2 text-center text-primary">Mani</h5>
+            <img src="https://www.union.pe/wp-content/uploads/2019/08/Galleta-4.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-white-50 description">deliciosas para el paladar,aportan mucha fibra, omegas, antioxidantes, vitaminas, aminoácidos y minerales</p>
+              <h5 class="text-primary">Precio: <span class="precio">$ 2000</span></h5>
+              <div class="d-grid gap-2">
+                <button class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col d-flex justify-content-center mb-4">
+          <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+            <h5 class="card-title pt-2 text-center text-primary">Quinua</h5>
+            <img src="hhttps://realfoodmarket.com.co/wp-content/uploads/2019/04/Quinoa-Real-en-Grano-500gr.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-white-50 description">deliciosas para el paladar,aportan mucha fibra, omegas, antioxidantes, vitaminas, aminoácidos y minerales</p>
+              <h5 class="text-primary">Precio: <span class="precio">$ 12000</span></h5>
+              <div class="d-grid gap-2">
+                <button class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col d-flex justify-content-center mb-4">
+          <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+            <h5 class="card-title pt-2 text-center text-primary">Pan integral</h5>
+            <img src="https://s.cornershopapp.com/product-images/1062987.jpg?versionId=CDqYvx5mwMcV0fJLLGYYzQRFDWGfhaAH" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-white-50 description">deliciosas para el paladar, aportan mucha fibra, omegas, antioxidantes, vitaminas, aminoácidos y minerales</p>
+              <h5 class="text-primary">Precio: <span class="precio">$ 10000</span></h5>
+              <div class="d-grid gap-2">
+                <button class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col d-flex justify-content-center mb-4">
+          <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+            <h5 class="card-title pt-2 text-center text-primary">Rosquillas integrales</h5>
+            <img src="https://cdn10.totalcode.net/farmaciahomeopatica/product-zoom/es/rosquillas-integral-de-arroz%2C-semillas-de-chia-y-linaza-2.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-white-50 description">deliciosas para el paladar, aportan mucha fibra, omegas, antioxidantes, vitaminas, aminoácidos y minerales</p>
+              <h5 class="text-primary">Precio: <span class="precio">$ 5000</span></h5>
+              <div class="d-grid gap-2">
+                <button class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+        </div>
+
+
+      </div>
+
+    </div>
+    <div class="tab-pane fade carrito" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+      <br>
+      <table class="table table-dark table-hover">
+        <thead>
+          <tr class="text-primary">
+            <th scope="col">#</th>
+            <th scope="col">Productos</th>
+            <th scope="col">Precio</th>
+            <th scope="col">Cantidad</th>
+          </tr>
+        </thead>
+        <tbody class="tbody">
+
+
+
+        </tbody>
+      </table>
+      <br><br>
+      <div class="row mx-4">
+        <div class="col">
+          <h3 class="itemCartTotal text-white">Total: 0</h3>
+        </div>
+        <div class="col d-flex justify-content-end">
+          <button class="btn btn-success">COMPRAR</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  </footer>
+
+
+</body>
+
+</html>
+
+</html>

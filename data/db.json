@@ -1,0 +1,86 @@
+{
+    "Food": [
+        {
+            "id": "1",
+            "title": "granola",
+            "tipo": "Frutos secos",
+            "description": "deliciosas para el paladar,aportan mucha fibra, omegas, antioxidantes, vitaminas, aminoácidos y minerales",
+            "price": 5000,
+            "image": "https://cdn.shopify.com/s/files/1/0567/5158/7533/products/granolacococanela1_640x640_crop_center.png?v=1648061260"
+        },
+        {
+            "id": "2",
+            "title": "almendro",
+            "tipo": "semilla",
+            "description": "deliciosas para el paladar,aportan mucha fibra, omegas, antioxidantes, vitaminas, aminoácidos y minerales",
+            "price": 15000,
+            "image": "https://exitocol.vtexassets.com/arquivos/ids/13175524/Almendras-Americanas-Bolsa-X-250-gr-375909_a.jpg?v=637899507074130000"
+        },
+        {
+            "id": "3",
+            "title": "uvas pasas",
+            "tipo": "Frutos secos",
+            "description": "deliciosas para el paladar,aportan mucha fibra, omegas, antioxidantes, vitaminas, aminoácidos y minerales",
+            "price": 3000,
+            "image": "https://www.levapan.com/wp-content/uploads/2015/11/uvas-pasas-levapan-de-1kg.jpg"
+        },
+        {
+            "id": "4",
+            "title": "Arandanos",
+            "tipo": "Frutos secos",
+            "description": "deliciosas para el paladar,aportan mucha fibra, omegas, antioxidantes, vitaminas, aminoácidos y minerales",
+            "price": 9000,
+            "image": "https://web.superboom.net/web/image/product.product/29816/image_1024/%5B016829%5D%20Arandanos%20Riovalle%20Bolsa%20100Gr?unique=a4fc3df"
+        },
+        {
+            "id": "5",
+            "title": "Nuez",
+            "tipo": "semilla",
+            "description": "deliciosas para el paladar,aportan mucha fibra, omegas, antioxidantes, vitaminas, aminoácidos y minerales",
+            "price": 8000,
+            "image": "https://globalnutrition.com.co/wp-content/uploads/2021/09/Bolsa-nuez-partida-200grs-1.jpg"
+        },
+        {
+            "id": "6",
+            "title": "Mani",
+            "tipo": "semilla",
+            "description": "deliciosas para el paladar,aportan mucha fibra, omegas, antioxidantes, vitaminas, aminoácidos y minerales",
+            "price": 2000,
+            "image": "https://exitocol.vtexassets.com/arquivos/ids/12936219/Mani-Con-Pasas-Bolsa-X-200-G-883557_a.jpg?v=637885700043930000"
+        },
+        {
+            "id": "7",
+            "title": "Quinua",
+            "tipo": "semilla",
+            "description": "deliciosas para el paladar,aportan mucha fibra, omegas, antioxidantes, vitaminas, aminoácidos y minerales",
+            "price": 12000,
+            "image": "https://realfoodmarket.com.co/wp-content/uploads/2019/04/Quinoa-Real-en-Grano-500gr.png"
+        },
+        {
+            "id": "8",
+            "title": "Galleta Integral",
+            "tipo": "dulce",
+            "description": "deliciosas para el paladar,aportan mucha fibra, omegas, antioxidantes, vitaminas, aminoácidos y minerales",
+            "price": 2000,
+            "image": "https://www.union.pe/wp-content/uploads/2019/08/Galleta-4.png"
+        },
+        {
+            "id": "9",
+            "title": "Pan Integral",
+            "tipo": "dulce",
+            "description": " deliciosas para el paladar,aportan mucha fibra, omegas, antioxidantes, vitaminas, aminoácidos y minerales",
+            "price": 10000,
+            "image": "https://s.cornershopapp.com/product-images/1062987.jpg?versionId=CDqYvx5mwMcV0fJLLGYYzQRFDWGfhaAH"
+        },
+        {
+            "id": "10",
+            "title": "Rosquillas integrales",
+            "tipo": "dulce",
+            "description": " deliciosas para el paladar, aportan mucha fibra, omegas, antioxidantes, vitaminas, aminoácidos y minerales",
+            "price": 5000,
+            "image": "https://cdn10.totalcode.net/farmaciahomeopatica/product-zoom/es/rosquillas-integral-de-arroz%2C-semillas-de-chia-y-linaza-2.webp"
+        }
+    ],
+    "carrito": [],
+    "favoritos": []
+}

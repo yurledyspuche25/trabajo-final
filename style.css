@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+button{
+    background: none;
+    font: inherit;
+    border: none;
+    cursor: pointer;
+}
+img, icon-icon, button, a {
+    display: block;
+}
+
+span{ 
+    display: inline-block;
+}
+html{
+    font-family: sans-serif;
+    overscroll-behavior: contain;
+}
+input {
+    display: block;
+    width: 100%;
+    font: inherit;
+}
+
+body {
+    width: 100vw;
+    height: 100vw;
+    font-family: 'Rubik', sans-serif;
+}
+/*HEADER*/
+.container{
+    background-color: rgb(8, 167, 140);
+    color: white;
+    width:100%;
+    max-width: 1440px;
+    height: 25px;
+    font-size: 12px;
+    padding:5px 45px  0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.header-logo{
+    margin: 20px;
+    font-size: 25px;
+    padding-left: 20px;
+    
+}
+.logo1{
+    color:rgb(8, 167, 140); 
+}
+.logo2{
+    color: black;
+}
+/*buscador*/
+.header-search-container{
+    width: 700px;
+    height: 35px;
+    padding: 20px;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content:  center;
+    
+}
+.container-logo{
+    display: flex;
+    
+}
+.search-field{
+    margin-top: 45px;
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid rgb(185, 179, 179);
+    
+    
+}
+.botonsearch{
+    background-color: rgb(241, 97, 31);
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(185, 179, 179);
+    height: 60px;
+    margin-top: 45px;
+    width: 60px;
+    padding-top: 25px;
+    
+}
+.location{
+    background-color: white;
+    text-decoration: none;
+    color: rgb(82, 78, 78);
+    border-radius: 5px;
+    border: 1px solid rgb(185, 179, 179);
+    height: 60px;
+    margin-top: 45px;
+    margin-right: 15px;
+    width: 60px;
+    padding-top: 25px;
+}
+/*manu de favorito*/
+.header-user-actions{
+    display: flex;
+    margin-left: 50px;
+    justify-content: space-around;
+    max-width: 1440px;
+}
+.action-btn{
+    width: 60px;
+    height: 60px;
+    padding-top: 25px;
+
+}
+/*desktop-navigation-menu*/
+.desktop-menu-category-list{
+    display:flex;
+    justify-content:left;
+    gap: 50px;
+    color:rgb(82, 78, 78);
+    
+}
+.btncategories{
+    margin-left: 50px;
+    background-color:  rgb(8, 167, 140);
+    color: white;
+    width: 230px; 
+    height: 40px;
+    border-radius:5px ;
+    
+}
+.bCategories{
+    color: white;
+}
+.menu-title{
+    color:rgb(82, 78, 78);
+}
+/*main imagen principal*/
+.imgprincipal{
+    background-position: 50%;
+    width: 700px;
+    height: 500px;
+    padding: 45px;
+    object-fit: cover;
+    display: flex;
+    text-align: center;
+}
+.imagenes{
+    display: flex;
+    flex-wrap: wrap;
+}
+.imgdescuento{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 35px;
+    gap: 15px;
+}
+/*cartas*/
+.cards{
+    width: 230px;
+    background-color: white;
+    border: 1px solid rgb(219, 216, 216);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.card_image{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+.items{
+    padding: 15px 30px 0 30px;
+}
+.btnadd{
+    justify-content: center;
+    background-color: rgb(224, 220, 220);
+    border-radius: 5px;
+    width: 50%;
+    margin-left: 50px;
+}
+.estrella{
+    width: 100px;
+}
+.star{
+    display: flex;
+    gap: 10px;
+    margin-left: 13px; 
+    margin-bottom: 10px;   
+}
+.text-card{
+    margin: 10px 0 0px 10px;
+}
+.añadir{
+    color: grey;
+    padding-left: 40px;
+    
+    
+}
+
+/* footer*/
+footer {footer class="section-t-space
+    background-color: $light-gray;
+    position: relative;
+    z-index: 0;}
+
+    &::after {
+        @include pos;
+        @include pseudowh($width: 30%, $height: 100%);
+        top: 0;
+        left: 0;
+        background-image: url(../images/vegetable/footer-shape.png);
+        background-repeat: no-repeat;
+        z-index: -1;
+
+        @include mq-max(xl) {
+            content: none;
+        }
+    }
+
+    &:before {
+        @include pos;
+        @include pseudowh($width: 30%, $height: 100%);
+        bottom: 0;
+        right: 0;
+        background-image: url(../images/vegetable/footer-shape-2.png);
+        background-repeat: no-repeat;
+        z-index: -1;
+
+        @include mq-max(xl) {
+            content: none;
+        }
+    }
+
+/*media query*/
